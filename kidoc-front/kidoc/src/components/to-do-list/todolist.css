@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.tdlEditButton {
+    height: 7vh;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.tdlEdit {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCheckboxes {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.inColumn {
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    background-color: #3c8fc4;
+    align-items: baseline;
+}
+
+.taskCheckboxes {
+    margin: 0 1rem 0 0;
+    font-size: 1.5rem;
+
+}
+
+.taskCheckboxes:checked + label{
+    color: rgb(185, 175, 175);
+    text-decoration: line-through;
+}
+
+.taskCheckboxes:checked + label::before {
+    background: green;
+}
+
+.taskLabel {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    color: white;
+}

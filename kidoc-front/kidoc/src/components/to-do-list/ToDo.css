@@ -1,0 +1,67 @@
+.instructionToDo {
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputAdd {
+    background-color: #71bceb;
+    color: #005081;
+    border: solid 2px #005081;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-right: 0.2rem;
+    font-weight: 700;
+}
+
+.instruction {
+    display: flex;
+    border: solid 2px #005081;
+    background-color: #71bceb;
+    color: #005081;
+    border-radius: 4px;
+    width: 18rem;
+    height: 3rem;
+}
+
+.deleteButton {
+    color: #005081;
+    font-weight: bold;
+    
+}
+
+.ToDoTitle {
+    display: flex;
+    justify-content: center;
+    color: #005081;
+}
+
+.ToDoForm {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.buttonAdd {
+    margin-bottom: 1rem;
+    border-color: #003366;
+    background-color: #003366;
+    color: white;
+}
+
+.completToDo {
+    margin: 1rem 1rem 0 1rem;
+    border: #005081 solid 2px;
+    border-radius: 4px;
+}
+
+.inputIntitulePF{
+    width:30vw;
+}
+
+.inputTimePF{
+    width: 35vw;
+}

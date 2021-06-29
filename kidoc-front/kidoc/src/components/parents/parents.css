@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.pageParents {
+    display: flex;
+    flex-direction: column;
+}
+
+.ImgLogoParents {
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.titleParents {
+    font-size: 9rem;
+    font-family: 'Shadows Into Light Two';
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    color: #005081;
+}
+
+.topParents {
+    background-color: #7CCDFE;
+}
+
+.settingsParents {
+    margin: 1rem 0rem 1rem 7rem;
+}
+.inputBirthday {
+    margin-top: 1rem;
+    
+}
+
+.BirthdayParents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    
+}
+
+.BirthdayParents label {
+    color: #005081;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+
+.BirthdayParents input {
+    background-color: #71bceb;
+    color: #005081;
+    border: solid 2px #005081;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.birthdayInput {
+    font-weight: 700;
+}
+
+.passwordParents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.passwordParents label {
+    color: #005081;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 2rem; 
+}
+
+.passwordParents input {
+    background-color: #71bceb;
+    color: #005081;
+    border: solid 2px #005081;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.inputPassword {
+    width: 6rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.inputName {
+    font-weight: 700;
+}
+
+.buttonValidate {
+    margin: 1.5rem 0rem 1rem 8.5rem;
+    font-size: 1.5rem;
+    border-color: #005081;
+    border-radius: 4px;
+    background-color: #003366;
+    color: whitesmoke;
+}
+
+.ToDoTitle {
+    font-family: 'Roboto';
+}
+
+.instructionSep{
+    margin-right: 0.5rem;
+}

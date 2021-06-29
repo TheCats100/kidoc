@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.badgeArrowBack {
+    margin-bottom: -1rem;
+    margin-left: 1rem;
+}
+
+.badgeTitleList {
+    padding: 0.2rem;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    text-align: center;
+    background-color: #446791;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.badgeList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.badgeListImg {
+    margin-bottom: 1rem;
+}
+
+.badgeModal {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.badgeModalBack {
+    background-color: white;
+    margin-top: 40vh;
+    font-size: 1.4rem;
+}
+
+.badgeModalClose {
+    height: 8vh;
+}

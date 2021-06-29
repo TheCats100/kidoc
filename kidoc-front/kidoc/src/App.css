@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PoetsenOne';
+  font-style: normal;
+  src:
+      local('Poetsen One'),
+      local('PoetsenOne'),
+      url(./font/PoetsenOne-Regular.ttf) format('truetype');
+}
+
+p, h1 {
+  font-family: 'PoetsenOne';
+}
